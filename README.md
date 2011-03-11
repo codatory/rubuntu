@@ -3,7 +3,7 @@
 ## Run it
 Copy and paste this snippet into your terminal as the user you want to use when it's done, it will use Sudo to get root if you aren't already root.
 
-    wget -O - https://github.com/codatory/rubuntu/raw/master/ubuntu-bootstrap.sh | bash
+    wget -O - http://github.com/codatory/rubuntu/raw/master/ubuntu-bootstrap.sh | bash
 
 
 ## What is it?
