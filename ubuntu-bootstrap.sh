@@ -18,22 +18,22 @@ sudo apt-get install vim-nox tmux rake ruby-dev ruby exuberant-ctags git-core wg
 echo 'check_certificate=off' >> ~/.wgetrc
 
 pretty_echo "Installing Janus"
-curl http://github.com/carlhuda/janus/raw/master/bootstrap.sh -# -o - | sh
+curl https://github.com/carlhuda/janus/raw/master/bootstrap.sh -# -o - | sh
 
 pretty_echo "Installing RVM"
-curl http://rvm.beginrescueend.com/releases/rvm-install-head -# > ~/rvm-install.sh
+curl https://rvm.beginrescueend.com/releases/rvm-install-head -# > ~/rvm-install.sh
 chmod +x ~/rvm-install.sh
 bash ~/rvm-install.sh
 
 pretty_echo "Configuring .profile"
-curl http://github.com/codatory/rubuntu/raw/master/profile -# >> ~/.profile
+curl https://github.com/codatory/rubuntu/raw/master/profile -# >> ~/.profile
 source ~/.profile
 
 pretty_echo "Configuring RVM"
-curl http://github.com/codatory/rubuntu/raw/master/rvmrc -# > ~/.rvmrc
+curl https://github.com/codatory/rubuntu/raw/master/rvmrc -# > ~/.rvmrc
 
 pretty_echo "Configuring .bashrc"
-curl http://github.com/codatory/rubuntu/raw/master/bashrc -# > ~/.bashrc
+curl https://github.com/codatory/rubuntu/raw/master/bashrc -# > ~/.bashrc
 source ~/.bashrc
 
 pretty_echo "Setting RVM Default to REE"
